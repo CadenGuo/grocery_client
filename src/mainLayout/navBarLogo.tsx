@@ -7,7 +7,7 @@ const imageUrl = '/favicon.ico';
 class NavBarLogo extends Component {
   render() {
     return (
-      <Link to={Paths.HOME} className="row" style={{ cursor: 'pointer' }}>
+      <Link to={Paths.ROOT} className="row" style={{ cursor: 'pointer' }}>
         <img
           className="nav-bar-logo m-t-md"
           alt="logo"
