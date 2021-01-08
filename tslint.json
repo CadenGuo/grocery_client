@@ -1,0 +1,32 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "linterOptions": {
+        "exclude": [
+            "src/serviceWorker.ts"
+        ]
+    },
+    "jsRules": {},
+    "rules": {
+        "quotemark": [true, "single", "jsx-double"],
+        "ordered-imports": [false],
+        "object-literal-sort-keys": [false],
+        "arrow-parens": [false],
+        "no-console": [true, "log"],
+        "no-string-literal": [false],
+        "indent": [true, "spaces", 2],
+        "member-access": [false],
+        "interface-over-type-literal": [false],
+        "no-empty-interface": [false],
+        "member-ordering": [false],
+        "no-unused-expression": true,
+        "interface-name": [true, "always-prefix"],
+        "semicolon": [true, "always"],
+        "trailing-comma": [true, {"multiline": "always", "singleline": "never"}],
+        "variable-name": [true, "allow-snake-case", "allow-pascal-case"],
+        "no-unused-variable": true
+    },
+    "rulesDirectory": []
+}
